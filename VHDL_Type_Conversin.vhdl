@@ -2,7 +2,7 @@ library ieee;
 -- ONLY STANDARD PACKAGES SUPPORTED FROM IEEE
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
--- STANDARD PACKAGES NOT SUPPORTED FROM IEEE
+-- PACKAGES NOT SUPPORTED FROM IEEE
 -- use std_logic_arith.all;
 -- use std_logic_unsigned.all;
 -- use std_logic_signed.all;
