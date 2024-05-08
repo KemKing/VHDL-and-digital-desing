@@ -42,3 +42,17 @@ s2 <= std_logic_vector(u3);
 -- 5 is a NATURAL Number
 s3 <= std_logic_vector(to_unsigned(5,4));
 
+-- ARITHMETIC OPERATIONS
+
+-- SUM of two unsinged data type
+u4 <= u2 + u1;
+
+-- SUM of one unsigned and one NATURAL
+u5 <= u2 + 1;
+
+-- SUM of two STD_LOGIC_VECTOR (neet first to convert in unsigned or signed data type, perform the addidion, and then convert the
+-- result to the STE_LOGIC_VECTOR data type
+s5 <= std_logic_vector( unsigned(s2) + unsigned(s1) );
+s6 <= std_logic_vector( unsigned(s2) + 1 );
+
+
