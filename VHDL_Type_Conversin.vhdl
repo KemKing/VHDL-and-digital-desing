@@ -31,12 +31,14 @@ signal u7 : unsigned (3 downto 0);
 -- FROM STD_LOGIC_VECTOR TO UNSIGNED 
 u1 <= unsigned (s1);
 
--- FROM INTEGER to UNSIGNED
+-- FROM NATURAL to UNSIGNED
+-- 5 is a NATURAL Number
 u2 <= to_unsigned(5,4);
 
 -- FROM UNSIGEND TO STD_LOGIC_VECTOR
 s2 <= std_logic_vector(u3);
 
--- FROM INTEGER TO STD_LOGIC_VECTOR
+-- FROM NATURAL TO STD_LOGIC_VECTOR
+-- 5 is a NATURAL Number
 s3 <= std_logic_vector(to_unsigned(5,4));
 
